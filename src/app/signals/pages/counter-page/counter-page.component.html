@@ -1,0 +1,11 @@
+<h1>Counter: {{ counter() }}</h1>
+<hr>
+<h2>Square Counter {{ squareCounter() }}</h2>
+<hr>
+
+
+<button (click)="increaseBy(+1)" class="btn btn-primary"> + 1 </button>
+&nbsp;
+<button (click)="increaseBy(-1)" class="btn btn-primary"> - 1 </button>
+&nbsp;
+<button (click)="counter.set(0)"  class="btn btn-primary"> Reset </button>
